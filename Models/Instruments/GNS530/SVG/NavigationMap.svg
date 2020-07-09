@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="NavigationMap.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 1024 768"
+   height="768px"
+   width="1024px">
+  <sodipodi:namedview
+     inkscape:guide-bbox="true"
+     showguides="true"
+     inkscape:document-rotation="0"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:snap-nodes="true"
+     inkscape:bbox-paths="false"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-others="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-global="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="36"
+     inkscape:window-x="1680"
+     inkscape:window-height="985"
+     inkscape:window-width="1680"
+     showgrid="true"
+     inkscape:current-layer="NavigationMapLegend"
+     inkscape:document-units="px"
+     inkscape:cy="50.098897"
+     inkscape:cx="899.31876"
+     inkscape:zoom="4.0582783"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="0"
+     bordercolor="#ffffff"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       id="grid4269"
+       type="xygrid" />
+    <sodipodi:guide
+       id="guide841"
+       orientation="0,-1"
+       position="1209.3799,52.425607" />
+    <sodipodi:guide
+       id="guide843"
+       orientation="0,-1"
+       position="901.36747,768" />
+  </sodipodi:namedview>
+  <defs
+     id="defs7962" />
+  <metadata
+     id="metadata7965">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="NavigationMapGroup"
+     id="layer3"
+     inkscape:groupmode="layer">
+    <g
+       inkscape:label="#g4869"
+       id="NavigationMapGroup">
+      <g
+         transform="matrix(1,0,0,0.99855072,-3,-2.915942)"
+         inkscape:label="#g4298"
+         id="NavigationMapNavMap">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="NavigationMapNavMap-bg"
+           width="1024"
+           height="690"
+           x="6"
+           y="58"
+           inkscape:label="#rect4293" />
+      </g>
+      <g
+         inkscape:label="#g4959"
+         id="NavigationMapLegend">
+        <rect
+           y="689.40625"
+           x="959.50397"
+           height="24.992043"
+           width="66.992043"
+           id="rect8420"
+           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00796;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <text
+           inkscape:label="RangeDisplay"
+           transform="scale(0.93580798,1.0685953)"
+           id="NavigationMapRangeDisplay"
+           y="661.87823"
+           x="1059.5933"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             style="font-size:17.5574px;line-height:1.25;fill:#31ffff;fill-opacity:1"
+             y="661.87823"
+             x="1059.5933"
+             id="tspan5131-3-5"
+             sodipodi:role="line">Zoom nm</tspan></text>
+        <rect
+           style="display:inline;opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.964844;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4216"
+           width="74.343285"
+           height="20.035156"
+           x="952.10205"
+           y="1.7650603" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="956.10889"
+           y="16.782639"
+           id="NavigationMapOrientationDisplay"
+           inkscape:label="#text4218"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:15px;line-height:1.25;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'"
+             sodipodi:role="line"
+             id="tspan4220"
+             x="956.10889"
+             y="16.782639">NORTH UP</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

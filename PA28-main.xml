@@ -1030,6 +1030,10 @@
 			<file>Aircraft/PA28/Models/Instruments/G5/G5.nas</file>
 			<file>Aircraft/PA28/Models/Instruments/G5/G5_electrical.nas</file>
 		</g5>
+		<gns530>
+			<file>Aircraft/PA28/Models/Instruments/GNS530/gns530.nas</file>
+		</gns530>
+		
 		<lights>
 			<file>Aircraft/PA28/Nasal/light-manager.nas</file>
 		</lights>
