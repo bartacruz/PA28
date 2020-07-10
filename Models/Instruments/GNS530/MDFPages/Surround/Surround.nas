@@ -1,4 +1,6 @@
 # Copyright 2018 Stuart Buchanan
+# Copyright 2020 Julio Santa Cruz (adapted to GNS530)
+#
 # This file is part of FlightGear.
 #
 # FlightGear is free software: you can redistribute it and/or modify
@@ -12,7 +14,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with FlightGear.  If not, see <http://www.gnu.org/licenses/>.
+# along with FlightGear.  If not, see <http:#www.gnu.org/licenses/>.
 #
 # MFD Surround
 #
@@ -88,6 +90,14 @@ var AP_STATUS_STYLE = {
 # Style element for use by the flight director modes and armed indicators.
 # This is normally green text on a black background, but when highlighted is
 # black text on a green background
+var STANDBY_STYLE = {
+  CURSOR_BLINK_PERIOD : 0.5,
+  HIGHLIGHT_COLOR :  "#73cdd8",
+  HIGHLIGHT_TEXT_COLOR : "#334da1",
+  NORMAL_TEXT_COLOR : "#73cdd8",
+};
+
+
 var FD_STATUS_STYLE = {
   CURSOR_BLINK_PERIOD : 0.5,
   HIGHLIGHT_COLOR :  "#00ff00",
@@ -107,11 +117,9 @@ var Surround =
     obj.pfd = pfd;
 
     var textElements = [
-      "Comm1StandbyFreq", "Comm1SelectedFreq",
-      "Comm2StandbyFreq", "Comm2SelectedFreq",
-      "Nav1StandbyFreq", "Nav1SelectedFreq",
-      "Nav2StandbyFreq", "Nav2SelectedFreq",
-      "Nav1ID", "Nav2ID", "Nav1Dis", "Nav1Rad",
+      "Comm1SelectedFreq",
+       "Nav1SelectedFreq",
+      "Nav1ID", "Nav1Dis", "Nav1Rad",
     ];
 
     var fdTextElements = ["HeaderAPLateralArmed", "HeaderAPLateralActive", "HeaderAPVerticalArmed", "HeaderAPVerticalActive", "HeaderAPVerticalReference"];
@@ -135,18 +143,19 @@ var Surround =
                             "Header4Label", "Header4Value"]);
     }
 
+    obj._comm1standbyfreq = fg1000.SelectableElement.new(obj.pageName, svg, "Comm1StandbyFreq", "", STANDBY_STYLE);
+    obj._nav1standbyfreq = fg1000.SelectableElement.new(obj.pageName, svg, "Nav1StandbyFreq", "", STANDBY_STYLE);
+    #obj._comm1standbyfreq.highlightElement();
+    #obj._nav1standbyfreq.highlightElement();
+    
     obj._comm1selected = PFD.HighlightElement.new(obj.pageName, svg, "Comm1Selected", "Comm1");
-    obj._comm2selected = PFD.HighlightElement.new(obj.pageName, svg, "Comm2Selected", "Comm2");
-
+    
     obj._nav1selected = PFD.HighlightElement.new(obj.pageName, svg, "Nav1Selected", "Nav1");
-    obj._nav2selected = PFD.HighlightElement.new(obj.pageName, svg, "Nav2Selected", "Nav2");
-
+    
     obj._comm1failed = PFD.HighlightElement.new(obj.pageName, svg, "Comm1Failed", "Comm1");
-    obj._comm2failed = PFD.HighlightElement.new(obj.pageName, svg, "Comm2Failed", "Comm2");
-
+    
     obj._nav1failed = PFD.HighlightElement.new(obj.pageName, svg, "Nav1Failed", "Nav1");
-    obj._nav2failed = PFD.HighlightElement.new(obj.pageName, svg, "Nav2Failed", "Nav2");
-
+    
     obj._canvas = myCanvas;
     obj._menuVisible = 0;
     obj._selectedPageGroup = 0;
@@ -178,7 +187,7 @@ var Surround =
     obj._loadPageTimer.singleShot = 1;
 
     obj.hideMenu();
-
+    
     obj.setController(fg1000.SurroundController.new(obj, svg, pfd));
     return obj;
   },
@@ -188,7 +197,7 @@ var Surround =
       var val = data[name];
 
       if (name == "Comm1SelectedFreq") me.setTextElement("Comm1SelectedFreq", sprintf("%0.03f", val));
-      if (name == "Comm1StandbyFreq") me.setTextElement("Comm1StandbyFreq", sprintf("%0.03f", val));
+      if (name == "Comm1StandbyFreq") me._comm1standbyfreq.setValue(sprintf("%0.03f", val));
       if (name == "Comm1Serviceable") {
         if (val == 1) {
           me._comm1failed.setVisible(0);
@@ -197,28 +206,8 @@ var Surround =
         }
       }
 
-      if (name == "Comm2SelectedFreq") me.setTextElement("Comm2SelectedFreq", sprintf("%0.03f", val));
-      if (name == "Comm2StandbyFreq") me.setTextElement("Comm2StandbyFreq", sprintf("%0.03f", val));
-      if (name == "Comm2Serviceable") {
-        if (val == 1) {
-          me._comm2failed.setVisible(0);
-        } else {
-          me._comm2failed.setVisible(1);
-        }
-      }
-
-      if (name == "CommSelected") {
-        if (val == 1) {
-          me._comm1selected.setVisible(1);
-          me._comm2selected.setVisible(0);
-        } else {
-          me._comm1selected.setVisible(0);
-          me._comm2selected.setVisible(1);
-        }
-      }
-
       if (name == "Nav1SelectedFreq") me.setTextElement("Nav1SelectedFreq", sprintf("%0.03f", val));
-      if (name == "Nav1StandbyFreq") me.setTextElement("Nav1StandbyFreq", sprintf("%0.03f", val));
+      if (name == "Nav1StandbyFreq") me._nav1standbyfreq.setValue(sprintf("%0.03f", val));
       if (name == "Nav1Serviceable") {
         if (val == 1) {
           me._nav1failed.setVisible(0);
@@ -227,26 +216,19 @@ var Surround =
         }
       }
 
-      if (name == "Nav2SelectedFreq") me.setTextElement("Nav2SelectedFreq", sprintf("%0.03f", val));
-      if (name == "Nav2StandbyFreq") me.setTextElement("Nav2StandbyFreq", sprintf("%0.03f", val));
-      if (name == "Nav2Serviceable") {
-        if (val == 1) {
-          me._nav2failed.setVisible(0);
-        } else {
-          me._nav2failed.setVisible(1);
-        }
+      if (name == "NavCommSelected") {
+    	  if (val == 1) {
+    		  if (me._nav1standbyfreq.isHighlighted()) me._nav1standbyfreq.unhighlightElement();
+    		  me._nav1selected.setVisible(0);
+    		  if (!me._comm1standbyfreq.isHighlighted()) me._comm1standbyfreq.highlightElement();
+    		  me._comm1selected.setVisible(1);
+    	  } else {
+    		  if (me._comm1standbyfreq.isHighlighted()) me._comm1standbyfreq.unhighlightElement();
+    		  me._comm1selected.setVisible(0);
+    		  if (!me._nav1standbyfreq.isHighlighted()) me._nav1standbyfreq.highlightElement();
+    		  me._nav1selected.setVisible(1);
+    	  }
       }
-
-      if (name == "NavSelected") {
-        if (val == 1) {
-          me._nav1selected.setVisible(1);
-          me._nav2selected.setVisible(0);
-        } else {
-          me._nav1selected.setVisible(0);
-          me._nav2selected.setVisible(1);
-        }
-      }
-
       if (name == "Nav1ID") me.setTextElement("Nav1ID", val);
       
       if (name == "Nav1DistanceMeters") {
@@ -259,7 +241,6 @@ var Surround =
       }
       
       if (name == "Nav1RadialDeg") me.setTextElement("Nav1Rad", val);
-      if (name == "Nav2ID") me.setTextElement("Nav2ID", val);
 
       # TODO - COM Volume - display the current volume for 2 seconds in place of the
       # standby frequency.

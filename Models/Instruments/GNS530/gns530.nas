@@ -5,6 +5,8 @@ var nasal_dir = getprop("/sim/fg-root") ~ "/Aircraft/Instruments-3d/FG1000/Nasal
 var aircraft_dir = getprop("/sim/aircraft-dir");
 
 io.load_nasal(nasal_dir ~ 'FG1000.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/Constants.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/MFDPageController.nas', "fg1000");
 io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/Interfaces/GNS530InterfaceController.nas', "fg1000");
 io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/GNS530D.nas', "fg1000");
 
@@ -18,6 +20,8 @@ var svg_path = '/Aircraft/PA28/Models/Instruments/GNS530/SVG/';
 var fg1000system = fg1000.FG1000.getOrCreateInstance(EIS, nil, svg_path);
 
 # Overide Surround controller
+io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/SelectableElement.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/MDFPages/Surround/SurroundController.nas', "fg1000");
 io.load_nasal(aircraft_dir ~ '/Models/Instruments/GNS530/MDFPages/Surround/Surround.nas', "fg1000");
 
 var targetcanvas = canvas.new({
@@ -33,7 +37,7 @@ var mfd = fg1000.GNS530Display.new(fg1000system, fg1000system.EIS_Class, fg1000s
 fg1000system.displays[1] = mfd;
 fg1000system.display(index:1);
 
-setprop("/instrumentation/nav-selected",2);
+#setprop("/instrumentation/nav-selected",2);
 	    
 	    
 # Turn on/off the displays 

@@ -1,4 +1,5 @@
 # Copyright 2018 Stuart Buchanan
+# Copyright 2020 Julio Santa Cruz
 # This file is part of FlightGear.
 #
 # FlightGear is free software: you can redistribute it and/or modify
@@ -76,6 +77,7 @@ var GNS530Display =
     obj._svg.set("clip-frame", canvas.Element.LOCAL);
     obj._svg.set("clip", "rect(0px, 1024px, 768px, 0px)");
 
+    # monoMMM_5 is the most similar to the GNS530 font.
     var fontmapper = func (family, weight) {
       if( family == "monoMMM_5") {
     	  return "monoMMM_5.ttf";
@@ -94,10 +96,6 @@ var GNS530Display =
         print("Loaded SVG" ~ svg_file);
       }
     }
-
-#    canvas.parsesvg(obj._svg,
-#                    EIS_SVG,
-#                    {'font-mapper': fontmapper});
 
     obj._MFDDevice = canvas.PFD_Device.new(obj._svg, 12, "SoftKey", myCanvas, "MFD");
     obj._MFDDevice.device_id = device_id;
@@ -122,11 +120,8 @@ var GNS530Display =
     obj.Surround = fg1000.Surround.new(obj, myCanvas, obj._MFDDevice, obj._svg);
     obj.SurroundController = obj.Surround.getController();
 
-    # Engine Information System.  A special case as it's always displayed on the MFD.
-    # Note that it is passed in on the constructor
-#    obj.EIS = EIS_Class.new(obj, myCanvas, obj._MFDDevice, obj._svg);
-#    obj.addPage("EIS", obj.EIS);
-    obj.EIS = {engineMenu:""}; # Empty EIS to fool FG1000
+    # GNS530 have no EIS. Make an empty EIS to fool FG1000. 
+    obj.EIS = {engineMenu:""}; 
 
     # The NavigationMap page is a special case, as it is displayed with the Nearest... pages as an overlay
     obj.NavigationMap = fg1000.NavigationMap.new(obj, myCanvas, obj._MFDDevice, obj._svg);
@@ -136,17 +131,14 @@ var GNS530Display =
     # Now load the other pages normally;
     foreach (var page; MFDPages) {
       if ((page != "NavigationMap") and (page != "EIS") and (page != "DirectTo") and (page != "WaypointEntry")) {
-        #var code = "obj.Surround.addPage(\"" ~ page ~ "\", fg1000." ~ page ~ ".new(obj, myCanvas, obj._MFDDevice, obj._svg));";
         var code = "obj.addPage(\"" ~ page ~ "\", fg1000." ~ page ~ ".new(obj, myCanvas, obj._MFDDevice, obj._svg));";
         var addPageFn = compile(code);
         addPageFn();
       }
     }
 
-    # Display the Surround, EIS and NavMap and the appropriate top level on startup.
+    # Display the Surround and NavMap and the appropriate top level on startup.
     obj.Surround.setVisible(1);
-#    obj.EIS.setVisible(1);
-#    obj.EIS.ondisplay();
     obj._MFDDevice.selectPage(obj.NavigationMap);
 
     return obj;

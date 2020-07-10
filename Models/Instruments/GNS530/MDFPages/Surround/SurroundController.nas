@@ -12,7 +12,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with FlightGear.  If not, see <http://www.gnu.org/licenses/>.
+# along with FlightGear.  If not, see <http:// www.gnu.org/licenses/>.
 #
 # Surround Controller
 var SurroundController =
@@ -26,6 +26,7 @@ var SurroundController =
       _pfd : pfd,
       _comselected : 1,
       _navselected : 1,
+      _navcommselected : 1,
       _com1active  : 0.0,
       _com1standby : 0.0,
       _com2active  : 0.0,
@@ -79,6 +80,9 @@ var SurroundController =
     # Store off particularly important data for control.
     if (data["CommSelected"] != nil) me._comselected = data["CommSelected"];
     if (data["NavSelected"] != nil)  me._navselected = data["NavSelected"];
+    if (data["NavCommSelected"] != nil)  {
+    	me._navcommselected = data["NavCommSelected"];
+    }
 
     if (data["Comm1SelectedFreq"] != nil) me._com1active  = data["Comm1SelectedFreq"];
     if (data["Comm1StandbyFreq"] != nil)  me._com1standby = data["Comm1StandbyFreq"];
@@ -338,7 +342,6 @@ var SurroundController =
   # updaters to map to properties, and this controller itself.
   handleComFreqTransfer : func (value) {
     var data={};
-
     if (me._comselected == 1) {
       data["Comm1SelectedFreq"] = me._com1standby;
       data["Comm1StandbyFreq"] = me._com1active;
@@ -354,7 +357,6 @@ var SurroundController =
   # Auto-tunes the ACTIVE COM channel to 121.2 when pressed for 2 seconds
   handleComFreqTransferHold : func (value) {
     var data={};
-
     if (me._comselected == 1) {
       data["Comm1SelectedFreq"] = 121.00;
     } else {
@@ -377,8 +379,21 @@ var SurroundController =
     me.sendNavComDataNotification(data);
     return emesary.Transmitter.ReceiptStatus_Finished;
   },
-
+  
+  # Hacked method to switch the receiver of the frequency knob
+  # between comm1 and nav1. Mapped on the xml of the GNS530 when picking the
+  # small freq knob
+  # The implementation is done in Surround.nas
   handleComVolToggle : func (value) {
+	  var data={};
+	  if (me._navcommselected == 1) {
+	    data["NavCommSelected"] = 2;
+	  } else {
+		  data["NavCommSelected"] = 1;
+	  }
+	  me.sendNavComDataNotification(data);
+	  return emesary.Transmitter.ReceiptStatus_Finished;
+
   },
 
   handleBaro : func(value) {

@@ -99,6 +99,7 @@ var GNS530NavComPublisher =
     obj._triggeredPublisher.addPropMap("Nav2AudioID", "/instrumentation/nav[1]/audio-btn");
     obj._triggeredPublisher.addPropMap("Nav2Serviceable", "/instrumentation/nav[1]/operable");
 
+    obj._triggeredPublisher.addPropMap("NavCommSelected", "/instrumentation/navcom-selected");
 
     obj._triggeredPublisher.addPropMap("ADFSelectedFreq", "/instrumentation/adf/frequencies/selected-khz");
     obj._periodicPublisher.addPropMap("ADFInRange", "/instrumentation/adf/in-range");
