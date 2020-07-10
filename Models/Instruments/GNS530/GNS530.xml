@@ -606,24 +606,24 @@
 			<binding>
 				<condition>
 					<equals>
-						<property>/instrumentation/nav-selected</property>
-						<value>1</value>
-					</equals>
-				</condition>	
-				<command>FG1000HardKeyPushed</command>
-				<device>1</device>
-				<notification>NAV_OUTER</notification>
-			</binding>
-			<binding>
-				<condition>
-					<equals>
-						<property>/instrumentation/com-selected</property>
+						<property>/instrumentation/navcom-selected</property>
 						<value>1</value>
 					</equals>
 				</condition>	
 				<command>FG1000HardKeyPushed</command>
 				<device>1</device>
 				<notification>COM_OUTER</notification>
+			</binding>
+			<binding>
+				<condition>
+					<equals>
+						<property>/instrumentation/navcom-selected</property>
+						<value>2</value>
+					</equals>
+				</condition>	
+				<command>FG1000HardKeyPushed</command>
+				<device>1</device>
+				<notification>NAV_OUTER</notification>
 			</binding>
 		</action>
 		<hovered>
@@ -652,13 +652,7 @@
 			<binding>
 				<command>FG1000HardKeyPushed</command>
 				<device>1</device>
-				<notification>COM_TOGGLE</notification>
-				<offset>1</offset>
-			</binding>
-			<binding>
-				<command>FG1000HardKeyPushed</command>
-				<device>1</device>
-				<notification>NAV_TOGGLE</notification>
+				<notification>COM_VOL_TOGGLE</notification>
 				<offset>1</offset>
 			</binding>
 		</action>
@@ -671,24 +665,24 @@
 			<binding>
 				<condition>
 					<equals>
-						<property>/instrumentation/nav-selected</property>
-						<value>1</value>
-					</equals>
-				</condition>	
-				<command>FG1000HardKeyPushed</command>
-				<device>1</device>
-				<notification>NAV_INNER</notification>
-			</binding>
-			<binding>
-				<condition>
-					<equals>
-						<property>/instrumentation/com-selected</property>
+						<property>/instrumentation/navcom-selected</property>
 						<value>1</value>
 					</equals>
 				</condition>	
 				<command>FG1000HardKeyPushed</command>
 				<device>1</device>
 				<notification>COM_INNER</notification>
+			</binding>
+			<binding>
+				<condition>
+					<equals>
+						<property>/instrumentation/navcom-selected</property>
+						<value>2</value>
+					</equals>
+				</condition>	
+				<command>FG1000HardKeyPushed</command>
+				<device>1</device>
+				<notification>NAV_INNER</notification>
 			</binding>
 		</action>
 		<hovered>
@@ -714,6 +708,16 @@
 		<type>knob</type>
 		<object-name>GNS530.c.knob</object-name>
 		<property>/instrumentation/comm[0]/volume</property>
+		<factor>-300</factor>
+		<center>
+			<y-m>-0.067969</y-m>
+			<z-m> 0.03038</z-m>
+		</center>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
 		<action>
 			<binding>
 				<command>property-adjust</command>
@@ -723,22 +727,31 @@
 				<max>1</max>
 			</binding>
 		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<tooltip-id>Comm1Volume</tooltip-id>
+				<label>COM Volume: %d%%</label>
+				<property>/instrumentation/comm[0]/volume</property>
+				<mapping>percent</mapping>
+			</binding>
+		</hovered>		
+	</animation>
+	
+	<animation>
+		<type>knob</type>
+		<object-name>GNS530.v.knob</object-name>
+		<property>/instrumentation/nav[0]/volume</property>
+		<factor>-300</factor>
 		<center>
-			<x-m>0.002597</x-m>
 			<y-m>-0.067969</y-m>
-			<z-m> 0.03038</z-m>
+			<z-m> 0.003902</z-m>
 		</center>
 		<axis>
 			<x>1</x>
 			<y>0</y>
 			<z>0</z>
 		</axis>
-	</animation>
-
-	<animation>
-		<type>knob</type>
-		<object-name>GNS530.v.knob</object-name>
-		<property>/instrumentation/nav[0]/volume</property>
 		<action>
 			<binding>
 				<command>property-adjust</command>
@@ -748,17 +761,15 @@
 				<max>1</max>
 			</binding>
 		</action>
-		
-		<center>
-			<x-m>0.002597</x-m>
-			<y-m>-0.067969</y-m>
-			<z-m> 0.003902</z-m>
-		</center>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-			<z>0</z>
-		</axis>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<tooltip-id>Nav1Volume</tooltip-id>
+				<label>NAV Volume: %d%%</label>
+				<property>/instrumentation/nav[0]/volume</property>
+				<mapping>percent</mapping>
+			</binding>
+		</hovered>		
 	</animation>
 
 
