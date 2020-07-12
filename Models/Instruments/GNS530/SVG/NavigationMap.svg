@@ -15,46 +15,46 @@
    height="768px"
    width="1024px">
   <sodipodi:namedview
-     inkscape:guide-bbox="true"
-     showguides="true"
-     inkscape:document-rotation="0"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-page="true"
-     inkscape:snap-nodes="true"
-     inkscape:bbox-paths="false"
-     inkscape:snap-to-guides="true"
-     inkscape:snap-others="true"
-     inkscape:snap-bbox="true"
-     inkscape:snap-grids="true"
-     inkscape:snap-global="false"
-     inkscape:window-maximized="1"
-     inkscape:window-y="36"
-     inkscape:window-x="1680"
-     inkscape:window-height="985"
-     inkscape:window-width="1680"
-     showgrid="true"
-     inkscape:current-layer="NavigationMapLegend"
-     inkscape:document-units="px"
-     inkscape:cy="50.098897"
-     inkscape:cx="899.31876"
-     inkscape:zoom="4.0582783"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="0"
-     bordercolor="#ffffff"
+     id="base"
      pagecolor="#ffffff"
-     id="base">
+     bordercolor="#ffffff"
+     borderopacity="0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.36393067"
+     inkscape:cx="902.94106"
+     inkscape:cy="496.37723"
+     inkscape:document-units="px"
+     inkscape:current-layer="NavigationMapGroup"
+     showgrid="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="985"
+     inkscape:window-x="1680"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-others="true"
+     inkscape:snap-to-guides="true"
+     inkscape:bbox-paths="false"
+     inkscape:snap-nodes="true"
+     inkscape:snap-page="true"
+     inkscape:bbox-nodes="true"
+     inkscape:document-rotation="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
-       id="grid4269"
-       type="xygrid" />
+       type="xygrid"
+       id="grid4269" />
     <sodipodi:guide
-       id="guide841"
+       position="1209.3799,52.425607"
        orientation="0,-1"
-       position="1209.3799,52.425607" />
+       id="guide841" />
     <sodipodi:guide
-       id="guide843"
+       position="901.36747,768"
        orientation="0,-1"
-       position="901.36747,768" />
+       id="guide843" />
   </sodipodi:namedview>
   <defs
      id="defs7962" />
@@ -71,68 +71,69 @@
     </rdf:RDF>
   </metadata>
   <g
-     style="display:inline"
-     inkscape:label="NavigationMapGroup"
+     inkscape:groupmode="layer"
      id="layer3"
-     inkscape:groupmode="layer">
+     inkscape:label="NavigationMapGroup"
+     style="display:inline">
     <g
-       inkscape:label="#g4869"
-       id="NavigationMapGroup">
+       id="NavigationMapGroup"
+       inkscape:label="#g4869">
+      <rect
+         y="63.335258"
+         x="869.0705"
+         height="34.111828"
+         width="156.94263"
+         id="rect4216"
+         style="display:inline;opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.82921;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         inkscape:label="#text4218"
+         id="NavigationMapOrientationDisplay"
+         y="88.568291"
+         x="882.6059"
+         style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="88.568291"
+           x="882.6059"
+           id="tspan4220"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">NORTH UP</tspan></text>
       <g
-         transform="matrix(1,0,0,0.99855072,-3,-2.915942)"
+         id="NavigationMapNavMap"
          inkscape:label="#g4298"
-         id="NavigationMapNavMap">
+         transform="matrix(1,0,0,0.96569688,-3,-6.9532467)">
         <rect
-           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="NavigationMapNavMap-bg"
-           width="1024"
-           height="690"
-           x="6"
+           inkscape:label="#rect4293"
            y="58"
-           inkscape:label="#rect4293" />
+           x="6"
+           height="690"
+           width="1024"
+           id="NavigationMapNavMap-bg"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       </g>
       <g
-         inkscape:label="#g4959"
-         id="NavigationMapLegend">
+         transform="translate(-717.68144,0.48574277)"
+         id="NavigationMapLegend"
+         inkscape:label="#g4959">
         <rect
-           y="689.40625"
-           x="959.50397"
-           height="24.992043"
-           width="66.992043"
+           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.11438;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect8420"
-           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00796;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <text
-           inkscape:label="RangeDisplay"
-           transform="scale(0.93580798,1.0685953)"
-           id="NavigationMapRangeDisplay"
-           y="661.87823"
-           x="1059.5933"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
-           xml:space="preserve"><tspan
-             style="font-size:17.5574px;line-height:1.25;fill:#31ffff;fill-opacity:1"
-             y="661.87823"
-             x="1059.5933"
-             id="tspan5131-3-5"
-             sodipodi:role="line">Zoom nm</tspan></text>
-        <rect
-           style="display:inline;opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.964844;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect4216"
-           width="74.343285"
-           height="20.035156"
-           x="952.10205"
-           y="1.7650603" />
+           width="72.350227"
+           height="28.285818"
+           x="959.55719"
+           y="686.05927" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="956.10889"
-           y="16.782639"
-           id="NavigationMapOrientationDisplay"
-           inkscape:label="#text4218"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:15px;line-height:1.25;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:26.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
+           x="1065.5164"
+           y="665.62518"
+           id="NavigationMapRangeDisplay"
+           transform="scale(0.93580798,1.0685953)"
+           inkscape:label="RangeDisplay"><tspan
              sodipodi:role="line"
-             id="tspan4220"
-             x="956.10889"
-             y="16.782639">NORTH UP</tspan></text>
+             id="tspan5131-3-5"
+             x="1065.5164"
+             y="665.62518"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:26.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#31ffff;fill-opacity:1">40nm</tspan></text>
       </g>
     </g>
   </g>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 1024 768"
    version="1.1"
    id="SVGRoot"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="NDBInfo.svg">
   <sodipodi:namedview
      id="base"
@@ -23,30 +21,40 @@
      borderopacity="0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8536232"
-     inkscape:cx="808.47751"
-     inkscape:cy="438.61063"
+     inkscape:zoom="0.95401476"
+     inkscape:cx="645.64915"
+     inkscape:cy="327.47439"
      inkscape:document-units="px"
      inkscape:current-layer="NDBInfoGroup"
      showgrid="true"
-     inkscape:window-width="2495"
-     inkscape:window-height="1416"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1680"
+     inkscape:window-height="985"
+     inkscape:window-x="1680"
+     inkscape:window-y="36"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
-     inkscape:snap-grids="true"
-     inkscape:snap-bbox="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="false"
      inkscape:snap-others="true"
      inkscape:snap-to-guides="true"
      inkscape:bbox-paths="false"
-     inkscape:snap-nodes="true"
+     inkscape:snap-nodes="false"
      inkscape:snap-page="true"
      inkscape:bbox-nodes="true"
-     showguides="false">
+     showguides="true"
+     inkscape:document-rotation="0"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid4269" />
+    <sodipodi:guide
+       position="242.14059,540.8992"
+       orientation="1,0"
+       id="guide67" />
+    <sodipodi:guide
+       position="164.30667,52.282254"
+       orientation="0,-1"
+       id="guide892" />
   </sodipodi:namedview>
   <defs
      id="defs7962" />
@@ -69,19 +77,11 @@
     <g
        inkscape:label="#g4237"
        id="NDBInfoGroup">
-      <rect
-         inkscape:label="#rect8921"
-         y="53"
-         x="700"
-         height="690.00201"
-         width="325.50195"
-         id="Background"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99601555;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          style="display:inline"
          id="NDBInfoNavMap"
          inkscape:label="#g4298"
-         transform="matrix(1.0107527,0,0,0.99855072,-451.07514,-2.915942)">
+         transform="matrix(0.21300121,0,0,0.95930539,-0.34565018,-0.71831773)">
         <rect
            inkscape:label="#rect4293"
            y="55.997097"
@@ -93,38 +93,31 @@
            ry="0" />
       </g>
       <rect
-         y="78.177788"
-         x="705.6778"
-         height="94.822212"
-         width="313.64447"
-         id="rect9743"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.3555429;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         transform="translate(-326.99999,0.3999505)"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00796;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect8420"
+         width="66.992043"
+         height="24.992043"
+         x="573.7334"
+         y="689.52838" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
+         x="647.36066"
+         y="662.36688"
+         id="NDBInfoRangeDisplay"
+         transform="matrix(0.93580798,0,0,1.0685953,-326.99999,0.3999505)"
+         inkscape:label="RangeDisplay"><tspan
+           sodipodi:role="line"
+           id="tspan5131-3-5"
+           x="647.36066"
+           y="662.36688"
+           style="font-size:17.5574px;line-height:1.25;fill:#31ffff;fill-opacity:1">Zoom nm</tspan></text>
       <g
          transform="translate(-326.99999,0.3999505)"
          style="display:inline"
          id="NDBInfoLegend"
          inkscape:label="#g4959">
-        <rect
-           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00795722;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8420"
-           width="66.992043"
-           height="24.992043"
-           x="959.50397"
-           y="718.104" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:12.03934765px;line-height:0%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
-           x="1059.5933"
-           y="689.10815"
-           id="NDBInfoRangeDisplay"
-           transform="scale(0.93580798,1.0685953)"
-           inkscape:label="RangeDisplay"
-           sodipodi:linespacing="0%"><tspan
-             sodipodi:role="line"
-             id="tspan5131-3-5"
-             x="1059.5933"
-             y="689.10815"
-             style="font-size:17.55738258px;line-height:1.25;fill:#31ffff;fill-opacity:1">Zoom nm</tspan></text>
         <rect
            y="52.556103"
            x="952.10205"
@@ -135,319 +128,343 @@
            ry="0" />
         <text
            inkscape:label="#text4218"
-           sodipodi:linespacing="125%"
            id="NDBInfoOrientationDisplay"
            y="67.573685"
            x="956.10889"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              y="67.573685"
              x="956.10889"
              id="tspan4220"
              sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'">NORTH UP</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:15px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5">NORTH UP</tspan></text>
       </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.35444069px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="743.23895"
-         y="249.65851"
-         id="text4355"
-         sodipodi:linespacing="125%"
-         transform="scale(0.96767669,1.033403)"><tspan
-           sodipodi:role="line"
-           id="tspan4357"
-           x="743.23895"
-           y="249.65851" /></text>
-      <text
-         transform="scale(0.96688562,1.0342485)"
-         sodipodi:linespacing="125%"
-         id="NDBInfoWaypointWeather"
-         y="599.86566"
-         x="619.31"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.36795044px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"><tspan
-           y="599.86566"
+      <rect
+         inkscape:label="#rect8921"
+         y="53.258354"
+         x="243.14279"
+         height="662.4137"
+         width="782.10077"
+         id="Background"
+         style="opacity:1;fill:#334da1;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.51272;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         id="g1113"
+         transform="translate(-76.736936,59.554523)">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.75565;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4331"
+           width="353.09979"
+           height="338.73257"
+           x="705.87781"
+           y="288.38254" />
+        <rect
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.77578;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4333"
+           width="286.02612"
+           height="41.22422"
+           x="720.83832"
+           y="267.69772" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="733.8515"
+           y="302.30984"
+           id="text4335"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px"
+             sodipodi:role="line"
+             id="tspan4337"
+             x="733.8515"
+             y="302.30984">INFORMATION</tspan></text>
+        <text
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="740.16589"
+           y="476.94989"
+           id="NDBInfoLat"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4361"
+             x="740.16589"
+             y="476.94989">N 56 45.29</tspan></text>
+        <text
+           id="NDBInfoLon"
+           y="529.55365"
+           x="740.16589"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="529.55365"
+             x="740.16589"
+             id="tspan5285"
+             sodipodi:role="line">E 56 45.78</tspan></text>
+        <text
+           id="NDBInfoRegion"
+           y="424.34613"
+           x="740.16589"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="424.34613"
+             x="740.16589"
+             id="tspan9110"
+             sodipodi:role="line">N CEN USA</tspan></text>
+        <text
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="740.16589"
+           y="371.74237"
+           id="NDBInfoType"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="371.74237"
+             x="740.16589"
+             id="tspan4223"
+             sodipodi:role="line">NDB TYPE</tspan></text>
+      </g>
+      <g
+         id="g1121"
+         transform="translate(1.3819831,-154.24411)">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.4454;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4225"
+           width="313.55453"
+           height="83.896683"
+           x="284.60861"
+           y="501.99826" />
+        <rect
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.64941;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4227"
+           width="233.49649"
+           height="41.350594"
+           x="299.66107"
+           y="481.43317" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="310.40942"
+           y="514.47241"
+           id="text4229"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px"
+             sodipodi:role="line"
+             id="tspan4231"
+             x="310.40942"
+             y="514.47241">FREQUENCY</tspan></text>
+        <text
+           id="NDBInfoFreq"
+           y="571.70825"
+           x="309.18484"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan4239"
+             y="571.70825"
+             x="309.18484"
+             sodipodi:role="line">123.00</tspan></text>
+      </g>
+      <g
+         id="g1097"
+         transform="translate(-419.73212,22.559682)">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.94207;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9743"
+           width="694.90851"
+           height="201.60312"
+           x="706.47107"
+           y="78.971054" />
+        <text
+           id="NDBInfoID"
+           y="153.94075"
+           x="730.79492"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.66666667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+             y="153.94075"
+             x="730.79492"
+             id="tspan4216"
+             sodipodi:role="line">KSF</tspan></text>
+        <rect
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:2.39381;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9753"
+           width="92.18692"
+           height="42"
+           x="721.14734"
+           y="57.991497" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="733.24084"
+           y="92.500015"
+           id="text9749"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none"
+             sodipodi:role="line"
+             id="tspan9751"
+             x="733.24084"
+             y="92.500015">NDB</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="730.79492"
+           y="153.81819"
+           id="NDBInfoID0"
+           inkscape:label="#text4166"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4227"
+             x="730.79492"
+             y="153.81819">K</tspan></text>
+        <text
+           inkscape:label="#text4166"
+           id="NDBInfoID1"
+           y="153.90071"
+           x="759.31396"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="153.90071"
+             x="759.31396"
+             id="tspan4232"
+             sodipodi:role="line">S</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="787.83295"
+           y="154.06575"
+           id="NDBInfoID2"
+           inkscape:label="#text4166"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4236"
+             x="787.83295"
+             y="154.06575">F</tspan></text>
+        <text
+           id="NDBInfoFacility"
+           y="211.3578"
+           x="730.79492"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4255"
+             x="730.79492"
+             y="211.3578">FACILITY NAME</tspan></text>
+        <text
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="730.79492"
+           y="260.62552"
+           id="NDBInfoNearestCity"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="260.62552"
+             x="730.79492"
+             id="tspan4259"
+             sodipodi:role="line">NEAREST CITY</tspan></text>
+      </g>
+      <g
+         id="g1153"
+         transform="translate(1.381965)">
+        <text
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="619.31"
-           id="tspan11874"
-           sodipodi:role="line" /></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-         x="711.60352"
-         y="111.96486"
-         id="NDBInfoID"
-         sodipodi:linespacing="125%"
-         inkscape:label="#text4166"><tspan
-           sodipodi:role="line"
-           id="tspan4216">KSF</tspan></text>
-      <rect
-         y="68.950432"
-         x="720.45044"
-         height="19.099174"
-         width="34.549561"
-         id="rect9753"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text9749"
-         y="83.663589"
-         x="724.12842"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="83.663589"
-           x="724.12842"
-           id="tspan9751"
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'">NDB</tspan></text>
-      <text
-         inkscape:label="#text4166"
-         sodipodi:linespacing="125%"
-         id="NDBInfoID0"
-         y="111.84229"
-         x="711.60352"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="111.84229"
-           x="711.60352"
-           id="tspan4227"
-           sodipodi:role="line">K</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="722.61133"
-         y="111.92482"
-         id="NDBInfoID1"
-         sodipodi:linespacing="125%"
-         inkscape:label="#text4166"><tspan
-           sodipodi:role="line"
-           id="tspan4232"
-           x="722.61133"
-           y="111.92482">S</tspan></text>
-      <text
-         inkscape:label="#text4166"
-         sodipodi:linespacing="125%"
-         id="NDBInfoID2"
-         y="112.08986"
-         x="733.61914"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="112.08986"
-           x="733.61914"
-           id="tspan4236"
-           sodipodi:role="line">F</tspan></text>
-      <rect
-         y="194.41904"
-         x="705.5"
-         height="123.58096"
-         width="314"
-         id="rect4331"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="183.5"
-         x="720.5"
-         height="19"
-         width="89.028687"
-         id="rect4333"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4335"
-         y="191.75851"
-         x="749.2533"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:14.51583004px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="scale(0.96767669,1.033403)"><tspan
-           y="191.75851"
-           x="749.2533"
-           id="tspan4337"
-           sodipodi:role="line"
-           style="stroke-width:0.967722px">INFORMATION</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="NDBInfoLat"
-         y="273.66348"
-         x="735.46173"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           y="273.66348"
-           x="735.46173"
-           id="tspan4361"
-           sodipodi:role="line">N 56 45.29</tspan></text>
-      <rect
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.9987511;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect5267"
-         width="314.00122"
-         height="70"
-         x="705.49939"
-         y="398" />
-      <rect
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.99999994;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect5269"
-         width="119.5"
-         height="19"
-         x="720.5"
-         y="388.5" />
-      <text
-         transform="scale(0.96767669,1.033403)"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:14.51583004px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="749.87598"
-         y="390.1322"
-         id="text5271"
-         sodipodi:linespacing="125%"><tspan
-           style="stroke-width:0.967722px"
-           sodipodi:role="line"
-           id="tspan5273"
-           x="749.87598"
-           y="390.1322">NEAREST AIRPORT</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="418.00293"
-         id="NDBInfoAirportID"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="735.46173"
-           y="418.00293"
-           id="tspan5287">KSFO</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="296.30157"
-         id="NDBInfoLon"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan5285"
-           x="735.46173"
-           y="296.30157">E 56 45.78</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="NDBInfoAirportCRS"
-         y="442.19485"
-         x="744.06671"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           id="tspan5301"
-           y="442.19485"
-           x="744.06671"
-           sodipodi:role="line">123</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="810.42755"
-         y="442.19485"
-         id="NDBInfoAirportDST"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="810.42755"
-           y="442.19485"
-           id="tspan5305">23nm</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="245.82703"
-         id="NDBInfoRegion"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan9110"
-           x="735.46173"
-           y="245.82703">N CEN USA</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="NDBInfoType"
-         y="219.62923"
-         x="735.46173"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35499954px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           sodipodi:role="line"
-           id="tspan4223"
-           x="735.46173"
-           y="219.62923">NDB TYPE</tspan></text>
-      <rect
-         y="338"
-         x="705.49939"
-         height="40"
-         width="314.00122"
-         id="rect4225"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.9987511;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="328.5"
-         x="720.5"
-         height="19"
-         width="84.5"
-         id="rect4227"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.99999994;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4229"
-         y="332.07159"
-         x="749.87598"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:14.51583004px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="scale(0.96767669,1.033403)"><tspan
-           y="332.07159"
-           x="749.87598"
-           id="tspan4231"
-           sodipodi:role="line"
-           style="stroke-width:0.967722px">FREQUENCY</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="355.91602"
-         id="NDBInfoFreq"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="735.46173"
-           y="355.91602"
-           id="tspan4239">123.00</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35499954px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="132.34024"
-         id="NDBInfoFacility"
-         sodipodi:linespacing="125%"><tspan
-           y="132.34024"
-           x="735.46173"
-           id="tspan4255"
-           sodipodi:role="line">FACILITY NAME</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="NDBInfoNearestCity"
-         y="157.73131"
-         x="735.46173"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35499954px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           sodipodi:role="line"
-           id="tspan4259"
-           x="735.46173"
-           y="157.73131">NEAREST CITY</tspan></text>
+           y="588.23224"
+           id="NDBInfoWaypointWeather"
+           transform="scale(0.96688562,1.0342485)"><tspan
+             style="font-size:19.368px;line-height:1.25"
+             sodipodi:role="line"
+             id="tspan11874"
+             x="619.31"
+             y="588.23224"> </tspan></text>
+        <rect
+           y="483.64014"
+           x="284.7338"
+           height="202.23723"
+           width="313.30423"
+           id="rect5267"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.69573;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="462.63644"
+           x="299.49341"
+           height="41.685883"
+           width="207.92064"
+           id="rect5269"
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.31412;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text5271"
+           y="497.74527"
+           x="311.47266"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="497.74527"
+             x="311.47266"
+             id="tspan5273"
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px">NRST APT</tspan></text>
+        <text
+           id="NDBInfoAirportID"
+           y="562.67456"
+           x="311.18484"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan5287"
+             y="562.67456"
+             x="311.18484"
+             sodipodi:role="line">KSFO</tspan></text>
+        <text
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="488.77368"
+           y="672.50769"
+           id="NDBInfoAirportCRS"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             x="488.77368"
+             y="672.50769"
+             id="tspan5301">123</tspan></text>
+        <text
+           id="NDBInfoAirportDST"
+           y="619.09509"
+           x="459.23013"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan5305"
+             y="619.09509"
+             x="459.23013"
+             sodipodi:role="line">23nm</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="311.18484"
+           y="619.09509"
+           id="text1131"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px"
+             sodipodi:role="line"
+             id="tspan1129"
+             x="311.18484"
+             y="619.09509">DIST</tspan></text>
+        <text
+           id="text1135"
+           y="668.72638"
+           x="311.18484"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="668.72638"
+             x="311.18484"
+             id="tspan1133"
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px">CRS</tspan></text>
+      </g>
     </g>
   </g>
 </svg>

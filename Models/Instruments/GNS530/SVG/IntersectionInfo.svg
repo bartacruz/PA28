@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,32 +7,33 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024px"
-   height="768px"
-   viewBox="0 0 1024 768"
-   version="1.1"
+   sodipodi:docname="IntersectionInfo.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="SVGRoot"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="IntersectionInfo.svg">
+   version="1.1"
+   viewBox="0 0 1024 768"
+   height="768px"
+   width="1024px">
   <sodipodi:namedview
+     inkscape:guide-bbox="true"
      id="base"
      pagecolor="#ffffff"
      bordercolor="#ffffff"
      borderopacity="0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.485676"
-     inkscape:cx="777.01311"
-     inkscape:cy="627.08307"
+     inkscape:zoom="0.6745903"
+     inkscape:cx="561.18004"
+     inkscape:cy="406.07758"
      inkscape:document-units="px"
      inkscape:current-layer="IntersectionInfoGroup"
      showgrid="true"
-     inkscape:window-width="2495"
-     inkscape:window-height="1416"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1680"
+     inkscape:window-height="985"
+     inkscape:window-x="1680"
+     inkscape:window-y="36"
      inkscape:window-maximized="1"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-grids="true"
      inkscape:snap-bbox="true"
      inkscape:snap-others="true"
@@ -43,10 +42,15 @@
      inkscape:snap-nodes="true"
      inkscape:snap-page="true"
      inkscape:bbox-nodes="true"
-     showguides="false">
+     showguides="true"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid4269" />
+    <sodipodi:guide
+       id="guide889"
+       orientation="0,-1"
+       position="609.52936,344.00236" />
   </sodipodi:namedview>
   <defs
      id="defs7962" />
@@ -69,19 +73,65 @@
     <g
        inkscape:label="#g4237"
        id="IntersectionInfoGroup">
+      <g
+         transform="translate(-326.99999,0.3999505)"
+         style="display:inline;"
+         id="IntersectionInfoLegend"
+         inkscape:label="#g4959">
+        <rect
+           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00796;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect8420"
+           width="66.992043"
+           height="24.992043"
+           x="989.81299"
+           y="657.48602" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
+           x="1091.9813"
+           y="632.38135"
+           id="IntersectionInfoRangeDisplay"
+           transform="scale(0.93580798,1.0685953)"
+           inkscape:label="RangeDisplay"><tspan
+             sodipodi:role="line"
+             id="tspan5131-3-5"
+             x="1091.9813"
+             y="632.38135"
+             style="font-size:17.5574px;line-height:1.25;fill:#31ffff;fill-opacity:1">Zoom nm</tspan></text>
+        <rect
+           y="52.556103"
+           x="952.10205"
+           height="20.035156"
+           width="74.343285"
+           id="rect4216"
+           style="display:inline;opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.96484423;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;"
+           ry="0" />
+        <text
+           inkscape:label="#text4218"
+           id="IntersectionInfoOrientationDisplay"
+           y="67.573685"
+           x="956.10889"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+           xml:space="preserve"><tspan
+             y="67.573685"
+             x="956.10889"
+             id="tspan4220"
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:15px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:monoMMM_5;">NORTH UP</tspan></text>
+      </g>
       <rect
          inkscape:label="#rect8921"
-         y="53"
-         x="700"
-         height="690.00201"
-         width="325.50195"
+         y="41.844326"
+         x="239.4079"
+         height="672.37408"
+         width="783.25055"
          id="Background"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.99601555;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:#334da1;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.52519;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          style="display:inline"
          id="IntersectionInfoNavMap"
          inkscape:label="#g4298"
-         transform="matrix(1.0107527,0,0,0.99855072,-451.07514,-2.915942)">
+         transform="matrix(0.04832544,0,0,0.97334817,184.60379,-12.101274)">
         <rect
            inkscape:label="#rect4293"
            y="55.997097"
@@ -92,335 +142,294 @@
            style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            ry="0" />
       </g>
-      <rect
-         y="78.177788"
-         x="705.6778"
-         height="49.822212"
-         width="313.64447"
-         id="rect9743"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.3555429;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <g
-         transform="translate(-326.99999,0.3999505)"
-         style="display:inline"
-         id="IntersectionInfoLegend"
-         inkscape:label="#g4959">
-        <rect
-           style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.00795722;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect8420"
-           width="66.992043"
-           height="24.992043"
-           x="959.50397"
-           y="718.104" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:12.03934765px;line-height:0%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow, Condensed';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#31ffff;fill-opacity:1;stroke:none"
-           x="1059.5933"
-           y="689.10815"
-           id="IntersectionInfoRangeDisplay"
-           transform="scale(0.93580798,1.0685953)"
-           inkscape:label="RangeDisplay"
-           sodipodi:linespacing="0%"><tspan
-             sodipodi:role="line"
-             id="tspan5131-3-5"
-             x="1059.5933"
-             y="689.10815"
-             style="font-size:17.55738258px;line-height:1.25;fill:#31ffff;fill-opacity:1">Zoom nm</tspan></text>
-        <rect
-           y="52.556103"
-           x="952.10205"
-           height="20.035156"
-           width="74.343285"
-           id="rect4216"
-           style="display:inline;opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.96484423;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           ry="0" />
-        <text
-           inkscape:label="#text4218"
-           sodipodi:linespacing="125%"
-           id="IntersectionInfoOrientationDisplay"
-           y="67.573685"
-           x="956.10889"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             y="67.573685"
-             x="956.10889"
-             id="tspan4220"
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'">NORTH UP</tspan></text>
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.35444069px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="743.23895"
-         y="249.65851"
-         id="text4355"
-         sodipodi:linespacing="125%"
-         transform="scale(0.96767669,1.033403)"><tspan
-           sodipodi:role="line"
-           id="tspan4357"
-           x="743.23895"
-           y="249.65851" /></text>
       <text
          transform="scale(0.96688562,1.0342485)"
-         sodipodi:linespacing="125%"
          id="IntersectionInfoWaypointWeather"
-         y="599.86566"
+         y="621.36505"
          x="619.31"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.36795044px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"
          inkscape:label="#text4232"><tspan
-           y="599.86566"
+           y="621.36505"
            x="619.31"
            id="tspan11874"
-           sodipodi:role="line" /></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="711.60352"
-         y="111.96486"
-         id="IntersectionInfoID"
-         sodipodi:linespacing="125%"
-         inkscape:label="#text4166"><tspan
            sodipodi:role="line"
-           id="tspan4168"
-           x="711.60352"
-           y="111.96486">KSFOF</tspan></text>
-      <rect
-         y="68.950432"
-         x="720.45044"
-         height="19.099171"
-         width="99.099144"
-         id="rect9753"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.90082932;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text9749"
-         y="83.663589"
-         x="724.12842"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="83.663589"
-           x="724.12842"
-           id="tspan9751"
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed'">INTERSECTION</tspan></text>
-      <text
-         inkscape:label="#text4166"
-         sodipodi:linespacing="125%"
-         id="IntersectionInfoID0"
-         y="111.84229"
-         x="711.60352"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="111.84229"
-           x="711.60352"
-           id="tspan4227"
-           sodipodi:role="line">K</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="722.61133"
-         y="111.92482"
-         id="IntersectionInfoID1"
-         sodipodi:linespacing="125%"
-         inkscape:label="#text4166"><tspan
-           sodipodi:role="line"
-           id="tspan4232"
-           x="722.61133"
-           y="111.92482">S</tspan></text>
-      <text
-         inkscape:label="#text4166"
-         sodipodi:linespacing="125%"
-         id="IntersectionInfoID2"
-         y="112.08986"
-         x="733.61914"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="112.08986"
-           x="733.61914"
-           id="tspan4236"
-           sodipodi:role="line">F</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="744.62695"
-         y="111.75977"
-         id="IntersectionInfoID3"
-         sodipodi:linespacing="125%"
-         inkscape:label="#text4166"><tspan
-           sodipodi:role="line"
-           id="tspan9313"
-           x="744.62695"
-           y="111.75977">F</tspan></text>
-      <text
-         inkscape:label="#text4166"
-         sodipodi:linespacing="125%"
-         id="IntersectionInfoID4"
-         y="112.00734"
-         x="755.63477"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:20px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="112.00734"
-           x="755.63477"
-           id="tspan9317"
-           sodipodi:role="line">F</tspan></text>
-      <rect
-         y="149.41904"
-         x="705.5"
-         height="108.58096"
-         width="314"
-         id="rect4331"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         y="138.5"
-         x="720.5"
-         height="19"
-         width="89.028687"
-         id="rect4333"
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4335"
-         y="148.21306"
-         x="749.2533"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:14.51583004px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="scale(0.96767669,1.033403)"><tspan
-           y="148.21306"
-           x="749.2533"
-           id="tspan4337"
-           sodipodi:role="line"
-           style="stroke-width:0.967722px">INFORMATION</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="IntersectionInfoLat"
-         y="204.73228"
-         x="735.46173"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           y="204.73228"
-           x="735.46173"
-           id="tspan4361"
-           sodipodi:role="line">N 56 45.29</tspan></text>
-      <rect
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.9987511;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect5267"
-         width="314.00122"
-         height="115"
-         x="705.49939"
-         y="283" />
-      <rect
-         style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:0.99999994;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect5269"
-         width="93.073303"
-         height="19"
-         x="720.5"
-         y="273.5" />
-      <text
-         transform="scale(0.96767669,1.033403)"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:14.51583004px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#fffcfa;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="749.87598"
-         y="278.8494"
-         id="text5271"
-         sodipodi:linespacing="125%"><tspan
-           style="stroke-width:0.967722px"
-           sodipodi:role="line"
-           id="tspan5273"
-           x="749.87598"
-           y="278.8494">NEAREST VOR</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="741.38989"
-         y="306.72012"
-         id="IntersectionInfoVORID"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="741.38989"
-           y="306.72012"
-           id="tspan5287">VOR</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="227.37038"
-         id="IntersectionInfoLon"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan5285"
-           x="735.46173"
-           y="227.37038">E 56 45.78</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="IntersectionInfoVORCRS"
-         y="337.98062"
-         x="790.56982"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           id="tspan5301"
-           y="337.98062"
-           x="790.56982"
-           sodipodi:role="line">123</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="790.98566"
-         y="369.61911"
-         id="IntersectionInfoVORDST"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="790.98566"
-           y="369.61911"
-           id="tspan5305">23nm</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="735.46173"
-         y="176.89583"
-         id="IntersectionInfoRegion"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan9110"
-           x="735.46173"
-           y="176.89583">N CEN USA</tspan></text>
-      <text
-         transform="scale(0.96767669,1.033403)"
-         inkscape:label="#text4232"
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="740.15192"
-         y="338.16962"
-         id="text9112"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="740.15192"
-           y="338.16962"
-           id="tspan9114">RAD</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text9116"
-         y="369.61911"
-         x="740.15192"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:19.35444069px;line-height:125%;font-family:'Liberation Sans Narrow';-inkscape-font-specification:'Liberation Sans Narrow Condensed';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         inkscape:label="#text4232"
-         transform="scale(0.96767669,1.033403)"><tspan
-           id="tspan9118"
-           y="369.61911"
-           x="740.15192"
-           sodipodi:role="line">DIS</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"> </tspan></text>
+      <g
+         transform="translate(-33.542458,-44.849198)"
+         id="g1214">
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.26134;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9743"
+           width="462.63153"
+           height="94.001221"
+           x="324.12009"
+           y="159.45468" />
+        <text
+           inkscape:label="#text4166"
+           id="IntersectionInfoID"
+           y="228.75366"
+           x="349.84369"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="228.75366"
+             x="349.84369"
+             id="tspan4168"
+             sodipodi:role="line">KSFOF</tspan></text>
+        <rect
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.58532;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect9753"
+           width="314.12003"
+           height="40.030731"
+           x="336.29678"
+           y="135.21687" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="351.35693"
+           y="169.23224"
+           id="text9749"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none"
+             sodipodi:role="line"
+             id="tspan9751"
+             x="351.35693"
+             y="169.23224">INTERSECTION</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="349.84369"
+           y="228.6311"
+           id="IntersectionInfoID0"
+           inkscape:label="#text4166"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4227"
+             x="349.84369"
+             y="228.6311">K</tspan></text>
+        <text
+           inkscape:label="#text4166"
+           id="IntersectionInfoID1"
+           y="228.6311"
+           x="378.26486"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="228.6311"
+             x="378.26486"
+             id="tspan4232"
+             sodipodi:role="line">S</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="406.686"
+           y="228.6311"
+           id="IntersectionInfoID2"
+           inkscape:label="#text4166"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4236"
+             x="406.686"
+             y="228.6311">F</tspan></text>
+        <text
+           inkscape:label="#text4166"
+           id="IntersectionInfoID3"
+           y="228.6311"
+           x="435.10715"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="228.6311"
+             x="435.10715"
+             id="tspan9313"
+             sodipodi:role="line">F</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="463.52829"
+           y="228.6311"
+           id="IntersectionInfoID4"
+           inkscape:label="#text4166"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan9317"
+             x="463.52829"
+             y="228.6311">F</tspan></text>
+      </g>
+      <g
+         id="g1228"
+         transform="translate(307.8425,-41.159347)">
+        <text
+           transform="scale(0.96767669,1.033403)"
+           id="text4355"
+           y="401.55502"
+           x="359.47635"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="401.55502"
+             x="359.47635"
+             id="tspan4357"
+             sodipodi:role="line"> </tspan></text>
+        <rect
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.66369;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4331"
+           width="341.63776"
+           height="276.22516"
+           x="323.82126"
+           y="306.72122" />
+        <rect
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:2.31606;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4333"
+           width="283.46481"
+           height="39.8046"
+           x="335.66748"
+           y="290.86441" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="347.39999"
+           y="324.76672"
+           id="text4335"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px"
+             sodipodi:role="line"
+             id="tspan4337"
+             x="347.39999"
+             y="324.76672">INFORMATION</tspan></text>
+        <text
+           transform="scale(0.96767669,1.033403)"
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="356.68735"
+           y="448.47809"
+           id="IntersectionInfoLat"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             id="tspan4361"
+             x="356.68735"
+             y="448.47809">N 56 45.29</tspan></text>
+        <text
+           id="IntersectionInfoLon"
+           y="505.28445"
+           x="356.68735"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"
+           transform="scale(0.96767669,1.033403)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="505.28445"
+             x="356.68735"
+             id="tspan5285"
+             sodipodi:role="line">E 56 45.78</tspan></text>
+        <text
+           id="IntersectionInfoRegion"
+           y="380.0343"
+           x="356.68735"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"
+           transform="scale(0.96767669,1.033403)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             y="380.0343"
+             x="356.68735"
+             id="tspan9110"
+             sodipodi:role="line">N CEN USA</tspan></text>
+      </g>
+      <g
+         id="g1196"
+         transform="translate(-385.73827,106.98892)">
+        <rect
+           y="157.76253"
+           x="676.40869"
+           height="277.27029"
+           width="307.28595"
+           id="rect5267"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.53414;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect
+           y="142.53105"
+           x="695.43713"
+           height="40"
+           width="212.50125"
+           id="rect5269"
+           style="opacity:1;fill:#1a3030;fill-opacity:1;fill-rule:nonzero;stroke:#fffcfa;stroke-width:1.94588;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text5271"
+           y="176.53105"
+           x="707.68787"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.967722px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="176.53105"
+             x="707.68787"
+             id="tspan5273"
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:none;stroke-width:0.967722px">NRST VOR</tspan></text>
+        <text
+           id="IntersectionInfoVORID"
+           y="237.48956"
+           x="724.87341"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"
+           transform="scale(0.96767669,1.033403)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan5287"
+             y="237.48956"
+             x="724.87341"
+             sodipodi:role="line">VOR</tspan></text>
+        <text
+           transform="scale(0.96767669,1.033403)"
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="854.07178"
+           y="304.99274"
+           id="IntersectionInfoVORCRS"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             x="854.07178"
+             y="304.99274"
+             id="tspan5301">123</tspan></text>
+        <text
+           id="IntersectionInfoVORDST"
+           y="361.1619"
+           x="857.59607"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"
+           transform="scale(0.96767669,1.033403)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan5305"
+             y="361.1619"
+             x="857.59607"
+             sodipodi:role="line">23nm</tspan></text>
+        <text
+           id="text9112"
+           y="304.99274"
+           x="729.05151"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           inkscape:label="#text4232"
+           transform="scale(0.96767669,1.033403)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan9114"
+             y="304.99274"
+             x="729.05151"
+             sodipodi:role="line">RAD</tspan></text>
+        <text
+           transform="scale(0.96767669,1.033403)"
+           inkscape:label="#text4232"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:0%;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="729.05151"
+           y="360.14758"
+           id="text9116"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.25;font-family:monoMMM_5;-inkscape-font-specification:'monoMMM_5, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             sodipodi:role="line"
+             x="729.05151"
+             y="360.14758"
+             id="tspan9118">DIS</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
