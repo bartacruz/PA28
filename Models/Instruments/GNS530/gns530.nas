@@ -74,11 +74,8 @@ var fg1000_power = func(n) {
 };
 
 var loader = func(n){
-	print(sprintf("GNS530 loader called with %s | %s", n.getValue(),n.getBoolValue()));
 	var loaded = props.globals.getNode("/instrumentation/gns530/loaded").getBoolValue();
-	if (n.getValue() == "GNS530"){
-		
-		print(sprintf("GNS530 loaded? %s", loaded));
+	if (n.getValue() == "GNS530"){	
 		if (!loaded) {
 			load_gns530();
 		}
