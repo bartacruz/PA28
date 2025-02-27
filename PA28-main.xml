@@ -815,6 +815,10 @@
 		<G5>
 			<start type="float">0</start>
 		</G5>
+		<gns530>
+			<serviceable type="bool">true</serviceable>
+			<loaded type="bool">false</loaded>
+		</gns530>
 		<it-gtx327>
 			<factory-vfr-code type="int">1200</factory-vfr-code>
 		</it-gtx327>

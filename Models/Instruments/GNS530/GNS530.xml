@@ -70,13 +70,13 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-assign</command>
-				<property>instrumentation/gns-530/buttons/rng-button</property>
+				<property>instrumentation/gns530/buttons/rng-button</property>
 				<value>1</value>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-assign</command>
-					<property>instrumentation/gns-530/buttons/rng-button</property>
+					<property>instrumentation/gns530/buttons/rng-button</property>
 					<value>0</value>
 				</binding>
 			</mod-up>
@@ -87,13 +87,13 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-assign</command>
-				<property>instrumentation/gns-530/buttons/rng-button</property>
+				<property>instrumentation/gns530/buttons/rng-button</property>
 				<value>-1</value>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-assign</command>
-					<property>instrumentation/gns-530/buttons/rng-button</property>
+					<property>instrumentation/gns530/buttons/rng-button</property>
 					<value>0</value>
 				</binding>
 			</mod-up>
@@ -115,13 +115,13 @@
 			</binding>
 			<binding>
 				<command>property-assign</command>
-				<property>instrumentation/gns-530/buttons/rng-button</property>
+				<property>instrumentation/gns530/buttons/rng-button</property>
 				<value>1</value>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-assign</command>
-					<property>instrumentation/gns-530/buttons/rng-button</property>
+					<property>instrumentation/gns530/buttons/rng-button</property>
 					<value>0</value>
 				</binding>
 			</mod-up>
@@ -144,13 +144,13 @@
 
 			<binding>
 				<command>property-assign</command>
-				<property>instrumentation/gns-530/buttons/rng-button</property>
+				<property>instrumentation/gns530/buttons/rng-button</property>
 				<value>-1</value>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-assign</command>
-					<property>instrumentation/gns-530/buttons/rng-button</property>
+					<property>instrumentation/gns530/buttons/rng-button</property>
 					<value>0</value>
 				</binding>
 			</mod-up>
@@ -159,7 +159,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>GNS530.rng</object-name>
-		<property>instrumentation/gns-530/buttons/rng-button</property>
+		<property>instrumentation/gns530/buttons/rng-button</property>
 		<factor>-6</factor>
 		<center>
 			<x-m> 0.002904</x-m>
@@ -190,7 +190,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.direct</object-name>
-		<property>instrumentation/gns-530/buttons/direct-pressed</property>
+		<property>instrumentation/gns530/buttons/direct-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -213,12 +213,12 @@
 			</binding>
 			<binding>
 				<command>property-toggle</command>
-				<property>instrumentation/gns-530/buttons/menu-pressed</property>
+				<property>instrumentation/gns530/buttons/menu-pressed</property>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-toggle</command>
-					<property>instrumentation/gns-530/buttons/menu-pressed</property>
+					<property>instrumentation/gns530/buttons/menu-pressed</property>
 				</binding>
 			</mod-up>
 		</action>
@@ -233,7 +233,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.menu</object-name>
-		<property>instrumentation/gns-530/buttons/menu-pressed</property>
+		<property>instrumentation/gns530/buttons/menu-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -274,7 +274,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.clr</object-name>
-		<property>instrumentation/gns-530/buttons/clr-pressed</property>
+		<property>instrumentation/gns530/buttons/clr-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -305,7 +305,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.ent</object-name>
-		<property>instrumentation/gns-530/buttons/ent-pressed</property>
+		<property>instrumentation/gns530/buttons/ent-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -323,12 +323,12 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-toggle</command>
-				<property>instrumentation/gns-530/buttons/cdi-pressed</property>
+				<property>instrumentation/gns530/buttons/cdi-pressed</property>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-toggle</command>
-					<property>instrumentation/gns-530/buttons/cdi-pressed</property>
+					<property>instrumentation/gns530/buttons/cdi-pressed</property>
 				</binding>
 			</mod-up>
 		</action>
@@ -336,7 +336,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.cdi</object-name>
-		<property>instrumentation/gns-530/buttons/cdi-pressed</property>
+		<property>instrumentation/gns530/buttons/cdi-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -353,12 +353,12 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-toggle</command>
-				<property>instrumentation/gns-530/buttons/obs-pressed</property>
+				<property>instrumentation/gns530/buttons/obs-pressed</property>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-toggle</command>
-					<property>instrumentation/gns-530/buttons/obs-pressed</property>
+					<property>instrumentation/gns530/buttons/obs-pressed</property>
 				</binding>
 			</mod-up>
 		</action>
@@ -366,7 +366,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.obs</object-name>
-		<property>instrumentation/gns-530/buttons/obs-pressed</property>
+		<property>instrumentation/gns530/buttons/obs-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -383,12 +383,12 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-toggle</command>
-				<property>instrumentation/gns-530/buttons/msg-pressed</property>
+				<property>instrumentation/gns530/buttons/msg-pressed</property>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-toggle</command>
-					<property>instrumentation/gns-530/buttons/msg-pressed</property>
+					<property>instrumentation/gns530/buttons/msg-pressed</property>
 				</binding>
 			</mod-up>
 		</action>
@@ -396,7 +396,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.msg</object-name>
-		<property>instrumentation/gns-530/buttons/msg-pressed</property>
+		<property>instrumentation/gns530/buttons/msg-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -427,7 +427,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.fpl</object-name>
-		<property>instrumentation/gns-530/buttons/fpl-pressed</property>
+		<property>instrumentation/gns530/buttons/fpl-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -444,12 +444,12 @@
 			<!--button binding here -->
 			<binding>
 				<command>property-toggle</command>
-				<property>instrumentation/gns-530/buttons/vnav-pressed</property>
+				<property>instrumentation/gns530/buttons/vnav-pressed</property>
 			</binding>
 			<mod-up>
 				<binding>
 					<command>property-toggle</command>
-					<property>instrumentation/gns-530/buttons/vnav-pressed</property>
+					<property>instrumentation/gns530/buttons/vnav-pressed</property>
 				</binding>
 			</mod-up>
 		</action>
@@ -457,7 +457,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.vnav</object-name>
-		<property>instrumentation/gns-530/buttons/vnav-pressed</property>
+		<property>instrumentation/gns530/buttons/vnav-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -488,7 +488,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.proc</object-name>
-		<property>instrumentation/gns-530/buttons/proc-pressed</property>
+		<property>instrumentation/gns530/buttons/proc-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -513,7 +513,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.c.btn</object-name>
-		<property>instrumentation/gns-530/buttons/c-pressed</property>
+		<property>instrumentation/gns530/buttons/c-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
@@ -538,7 +538,7 @@
 	<animation>
 		<type>translate</type>
 		<object-name>GNS530.v.btn</object-name>
-		<property>instrumentation/gns-530/buttons/v-pressed</property>
+		<property>instrumentation/gns530/buttons/v-pressed</property>
 		<factor>-0.001</factor>
 		<axis>
 			<x>1</x>
