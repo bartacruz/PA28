@@ -415,7 +415,7 @@
 			<text>
 				<halign>left</halign><!--
 				<label>GNS530: Garmin GNS530 for COM/NAV 1 and navigation, KX-165 for COM/NAV 2</label>-->
-				<label>GNS530: not yet available</label>
+				<label>GNS530</label>
 			</text>
 		
 			<combo>
@@ -423,8 +423,8 @@
 				<name>radio-setup</name>
 				<pref-width>150</pref-width>
 				<property>/options/radio-setup</property>
-				<value>traditional</value><!--
-				<value>GNS530</value>-->
+				<value>traditional</value>
+				<value>GNS530</value>
 				<binding>
 					<command>dialog-apply</command>
 				</binding>
